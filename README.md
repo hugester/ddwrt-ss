@@ -10,8 +10,8 @@ apply the settings and reboot the router
 ssh root@router_local_ip_address (enter the router passowrd)
 
 --------------------------------
-#第一次安装需要运行ssinstall.sh
-sh ssinstall.sh 
+#第一次安装需要运行ssInstall.sh
+sh ssInstall.sh 
 #配置ss客户端文件
 /opt/etc/tunnel.json 本地端口请配1081，主要转发udp的包。
 /opt/etc/ssredir.json 本地端口请1080，主要转tcp的包。
